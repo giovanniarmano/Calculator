@@ -9,12 +9,6 @@ An example of calculus query:
 
 GET /calculus?query=MiAqICgyMy8oMyozKSktIDIzICogKDIqMyk=
 
-return { error: false, result: "-138,888888888" }
+will return
 
-## Deploying to Heroku
-
-```
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
+{"error":false,"message":"-132.888888888888886"}
